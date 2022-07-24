@@ -37,7 +37,7 @@ def __plotly_fig2array(fig):
     '''
     Convert plotly figure into an 2x2 array of RGB bytes
     '''
-    fig_bytes = fig.to_image(format="png", scale=1.0, engine='orca')
+    fig_bytes = fig.to_image(format="png", scale=1.0)
     buf = io.BytesIO(fig_bytes)
     img = Image.open(buf)
     return np.asarray(img)
