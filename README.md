@@ -3,7 +3,7 @@ Spheroid Mesh Generation and Visualization Utilities
 
 # Prerequisites
 
-* (Anaconda)[https://www.anaconda.com/] or (miniconda)[https://docs.conda.io/en/latest/miniconda.html]
+* [Anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
 # Setup
 Install prerequisites such as `numpy`, `plotly`, `moviepy`, and `scipy`, and others via `conda`.
@@ -21,3 +21,10 @@ jupyter notebook globe_mesh_uv.ipynb
 Run through the notebook to generate interactive 3D charts and .gifs like this:
 
 ![Gif example](./image/uv_spheroid_full.gif)
+
+Use comments to toggle between the plotting utils to generate 3D charts (`show_poly_3d()`) or
+.gifs (`create_poly_3d_gif()`):
+```py
+show_poly_3d(<...>)
+#create_poly_3d_gif(<...>)
+```
