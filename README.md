@@ -1,5 +1,5 @@
 # spheriod-mesh-generate
-Spheroid Mesh Generation and Visualization Utilities
+Spheroid Mesh Generation and Visualization Utilities. Accompanying blog post: https://fentonsoftware.com/generating-spheroidal-meshes-in-python/
 
 # Prerequisites
 
